@@ -3403,12 +3403,25 @@ h3 {
     padding-bottom: 0px;
   }
 }
-.teste{
+.preto{
   background-color: #000;
 }
+
+
 /* line 10, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_pet_care.scss */
 .faixa .pet_thumb img {
   width: 100%;
+}
+
+.faixa .flyer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.faixa .flyer img{
+  width: 220px;
 }
 
 /* line 19, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_pet_care.scss */
