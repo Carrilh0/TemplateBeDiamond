@@ -87,7 +87,7 @@ button {
 /* line 37, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Poppins", sans-serif;
-  color: #191d34;
+  color: #000000;
 }
 
 /* line 41, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
@@ -1261,7 +1261,7 @@ h3 {
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  background: rgba(255, 255, 255, 0.96);
+  background: #000;
 }
 
 @media (max-width: 767px) {
@@ -3409,6 +3409,9 @@ h3 {
     padding-top: 0px;
     padding-bottom: 0px;
   }
+}
+.cinza{
+  background-color: rgb(230, 230, 230);
 }
 .preto{
   background-color: #000;
