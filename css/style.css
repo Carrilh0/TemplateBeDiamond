@@ -2058,13 +2058,14 @@ h3 {
 
 }
 
-@media (min-width: 768px) and (max-width: 1170px) {
+@media (min-width: 768px) and (max-width: 1000px) {
   /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_team.scss */
   .service_area .single_service {
-    min-height: 700px;
+    min-height: 650px;
 
   }
 }
+
 /* line 21, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
 
 
@@ -6784,3 +6785,10 @@ margin-left: 20px;
 margin-bottom: 10px;
 text-align: center;
 }}
+
+.botao-pdf {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
