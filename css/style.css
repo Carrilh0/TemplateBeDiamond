@@ -2279,11 +2279,12 @@ h3 {
 
 /* line 2, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_testmonial.scss */
 .testmonial_area {
+  margin-top: 20px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  padding: 125px 0  115px 0;
+  padding: 100px 0  70px 0;
   overflow: hidden;
   background: #fff;
 }

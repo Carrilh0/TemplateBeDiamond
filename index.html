@@ -533,13 +533,11 @@
         <div class="testmonial_area">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-lg-10">
+                    <div class="col-lg-4">
                         <div class="textmonial_active owl-carousel">
                             <div class="testmonial_wrap">
                                 <div class="single_testmonial d-flex align-items-center preto">
-                                    <div class="test_thumb">
-                                        <img src="img/testmonial/1.png" alt="">
-                                    </div>
+                                    
                                     <div class="test_content">
                                         <h4>Jhon Walker</h4>
                                         <span>Head of web design</span>
@@ -552,9 +550,7 @@
                             </div>
                             <div class="testmonial_wrap">
                                 <div class="single_testmonial d-flex align-items-center preto">
-                                    <div class="test_thumb">
-                                        <img src="img/testmonial/1.png" alt="">
-                                    </div>
+                                    
                                     <div class="test_content">
                                         <h4>Jhon Walker</h4>
                                         <span>Head of web design</span>
@@ -567,9 +563,7 @@
                             </div>
                             <div class="testmonial_wrap">
                                 <div class="single_testmonial d-flex align-items-center preto">
-                                    <div class="test_thumb">
-                                        <img src="img/testmonial/1.png" alt="">
-                                    </div>
+                                    
                                     <div class="test_content">
                                         <h4>Jhon Walker</h4>
                                         <span>Head of web design</span>
@@ -600,14 +594,14 @@
                     </div>
                 </div>
                 <div class="carousel">
-                    <div><img src="https://i.imgur.com/3aIutJi.png" alt="js" /></div>
-                    <div><img src="https://i.imgur.com/rWtGeQ0.png" alt="java" /></div>
-                    <div><img src="https://i.imgur.com/8946bSF.png" alt="python"/></div>
-                    <div><img src="https://i.imgur.com/9Hc7hjb.png" alt="kotlin" /></div>
-                    <div><img src="https://i.imgur.com/uZDEpjX.png" alt="scala" /></div>
-                    <div><img src="https://i.imgur.com/eQoyQjy.png" alt="C#" /></div>
-                    <div><img src="https://i.imgur.com/ko3iAbu.png" alt="PHP" /></div>
-                    <div><img src="https://i.imgur.com/Afkz5od.png" alt="dotnet" /></div>
+                    <div><img src="https://imgur.com/3aIutJi.png" /></div>
+                    <div><img src="https://imgur.com/rWtGeQ0.png"/></div>
+                    <div><img src="https://imgur.com/8946bSF.png"/></div>
+                    <div><img src="https://imgur.com/9Hc7hjb.png" /></div>
+                    <div><img src="https://imgur.com/uZDEpjX.png"/></div>
+                    <div><img src="https://imgur.com/eQoyQjy.png"/></div>
+                    <div><img src="https://imgur.com/ko3iAbu.png"/></div>
+                    <div><img src="https://imgur.com/Afkz5od.png"/></div>
                 </div>
             </div>   
         </div>
@@ -673,10 +667,14 @@
                 dots: true,
                 infinite: true,
                 autoplay: true,
-                speed: 500,
+                autoplaySpeed: 1000,
                 slidesToShow: 4,
                 slidesToScroll: 1,
+                
                 });
+
+                $('.slick-next').hide();
+                $('.slick-prev').hide();
             </script>
         <!--contact js-->
         <script src="js/contact.js"></script>
