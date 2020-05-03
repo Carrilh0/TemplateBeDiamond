@@ -3431,7 +3431,9 @@ h3 {
 }
 
 .faixa .flyer img{
-  width: 220px;
+  width: 250px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 /* line 19, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_pet_care.scss */
