@@ -6961,13 +6961,13 @@ text-align: center;
 
 .accordion .accordion-item a:hover{
   cursor: pointer;
-  color: #03b5d2;
+  color: #ffcf00;
 }
 
 
 .accordion a.active {
-  color: #03b5d2;
-  border-bottom: 1px solid #03b5d2;
+  color: #ffcf00;
+  border-bottom: 1px solid #ffcf00;
 }
 
 .accordion a::after {
@@ -6991,8 +6991,8 @@ text-align: center;
 .accordion a.active::after {
   font-family: 'Ionicons';
   content: '-';
-  color: #03b5d2;
-  border: 1px solid #03b5d2;
+  color: #ffcf00;
+  border: 1px solid #ffcf00;
 }
 
 .accordion .content {
