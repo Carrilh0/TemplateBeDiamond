@@ -6817,8 +6817,8 @@ text-align: center;
   border-bottom: 3px solid #ffcf00;
 }
 .service_area .minipack img{
-  margin-top: 20px;
-  
+  margin: 20px 0 20px 15%;
+  width: 65%;
 }
 
 
