@@ -7181,3 +7181,11 @@ line-height: 90px;
     margin-top: 90px;
   }
 }
+
+.preco .faixa{
+  position: absolute;
+  margin-top: 0;
+  top: 0;
+  padding: 0;
+  width: 15%;
+}
