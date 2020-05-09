@@ -38,6 +38,10 @@
 .footer .content .col-xl-12 a{
     font-size: 60%;
 }
+.footer .content .col-xl-12 a::selection , h4::selection{
+    color: black;
+    background-color: white;
+}
 
 .footer .content img{
     width: 10%;
