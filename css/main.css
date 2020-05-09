@@ -51,9 +51,13 @@
     background-color: #fff;
 }
 
+.slider_area{
+    right: 0px;
+}
+
 @media (max-width: 768px)
 {
-    .banner .slider_text h3, a{
+    .banner .slider_text h3, p{
         text-align: center;
     }
     .banner .slider_text {
@@ -67,11 +71,47 @@
     }
 
     .slider_area .single_slider .slider_text {
-
         left: 0%;
+    }
+
+    .service_area .single_service {
+        padding: 20px 5px 20px 5px;
+        
+        min-height: 300px;
+      
       }
+
+      .faixa-carrosel{
+          height: 200px;
+          width: 100%;
+      }
+
+      .footer .content{
+        width: 100%;
+    }
+   
+    .footer .bordered_1px{
+        padding: 0;
+    }
+    .footer .col-xl-12 p{
+        font-size: 50%;
+        text-align: center;
+    }
+
+    .botao-pdf a{
+        margin-bottom: 20px;
+    }
+
+    .cinza .pet_thumb img{
+        margin-top: 20px;
+    }
+
+    .produto img{
+        margin-left: -30px ;
+    }
+
+    .botao_compra a{
+        width: 90%;
+    }
 }
 
-.slider_area{
-    right: 0px;
-}

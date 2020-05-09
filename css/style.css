@@ -7017,7 +7017,7 @@ text-align: center;
 
 .valor{
   margin-top: -30px;
-  height: 250px;
+  height: 220px;
 }
 
 .valor span{
@@ -7044,6 +7044,10 @@ text-align: center;
 .content .descricao{
   color: #fff;
   font-size: 15%;
+}
+
+.preco{
+  width: 100%;
 }
 
 .preco .plan .content {
@@ -7114,7 +7118,7 @@ line-height: 90px;
 }
 
 .botao_compra{  
-  margin-top: -40px;
+  margin-top: -70px;
 }
 
 .botao_compra a{
@@ -7127,8 +7131,8 @@ line-height: 90px;
 .seguro{
   color: #ffcf00;
   text-shadow: 0px 0px 20px #ffcf00;
+  padding-bottom: 20px;
 }
-
 
 .seguro::before{
   font-family: 'FontAwesome';
