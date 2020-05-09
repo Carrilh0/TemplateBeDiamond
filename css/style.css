@@ -1420,6 +1420,7 @@ h3 {
 .slider_area .single_slider .slider_text {
   position: relative;
   z-index: 6;
+  left: 130%;
 }
 
 /* line 30, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
@@ -1514,8 +1515,8 @@ h3 {
 .slider_area .dog_thumb {
   position: absolute;
   bottom: 0;
-  left: 0;
-  bottom: -94px;
+  left: 50%;
+  top: 90px;
   z-index: 1;
 }
 
@@ -1566,15 +1567,20 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 74, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .dog_thumb {
-    left: -30%;
+    left: -25%;
     text-align: right;
+    
   }
+  .banner .button-banner{
+    width: 0 auto;
+    text-align: center;
+}
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   /* line 74, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .dog_thumb {
-    left: -20%;
+    left: -15%;
     text-align: right;
   }
 }
@@ -1582,7 +1588,7 @@ h3 {
 @media (min-width: 1501px) and (max-width: 1700px) {
   /* line 74, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .dog_thumb {
-    left: -20%;
+    left: -5%;
     text-align: right;
   }
 }
@@ -1590,7 +1596,7 @@ h3 {
 @media (min-width: 1701px) and (max-width: 2500px) {
   /* line 74, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .dog_thumb {
-    left: -5%;
+    left: 5%;
     text-align: right;
   }
 }
@@ -1598,15 +1604,15 @@ h3 {
 @media (min-width: 2501px) and (max-width: 3500px) {
   /* line 74, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .dog_thumb {
-    left: 10%;
+    left: 20%;
     text-align: right;
   }
 }
 
-@media (min-width: 3501px) and (max-width: 5000px) {
+@media (min-width: 3501px) and (max-width: 50000px) {
   /* line 74, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .dog_thumb {
-    left: 25%;
+    left: 30%;
     text-align: right;
   }
 }
@@ -6749,41 +6755,6 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
-@media only screen and (min-width: 0px) and (max-width: 1200px) {
-.button-banner {
-  display: inline-block;
-  margin-left: 20%;
-
-}
-}
-
-@media only screen and (min-width: 0px) and (max-width: 321px) {
-  .button-banner {
-    display: inline-block;
-    margin-left: 3%;
-  }
-  }
-
-@media only screen and (min-width: 322px) and (max-width: 361px) {
-.button-banner {
-  display: inline-block;
-  margin-left: 9%;
-}
-}
-
-@media only screen and (min-width: 361px) and (max-width: 412px) {
-  .button-banner {
-    display: inline-block;
-    margin-left: 9%;
-  }
-}
-
-@media only screen and (min-width: 413px) and (max-width: 500px) {
-  .button-banner {
-    display: inline-block;
-    margin-left: 13%;
-  }
-}
 
 @media only screen and (min-width: 0px) and (max-width: 1200px) {
 

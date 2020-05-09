@@ -50,3 +50,28 @@
 .copy-right_text{
     background-color: #fff;
 }
+
+@media (max-width: 768px)
+{
+    .banner .slider_text h3, a{
+        text-align: center;
+    }
+    .banner .slider_text {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .banner .button-banner{
+        width: 0 auto;
+        text-align: center;
+    }
+
+    .slider_area .single_slider .slider_text {
+
+        left: 0%;
+      }
+}
+
+.slider_area{
+    right: 0px;
+}
