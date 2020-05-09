@@ -2043,7 +2043,7 @@ h3 {
 
 /* line 15, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
 .service_area .single_service {
-  padding: 70px 25px 65px 25px;
+  padding: 35px 5px 35px 5px;
   border-bottom: 3px solid #000;
   -webkit-border-radius: 10px 10px 0px 0px;
   -moz-border-radius: 10px 10px 0px 0px;
@@ -2053,7 +2053,7 @@ h3 {
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  min-height: 520px;
+  min-height: 400px;
 
 }
 
@@ -3399,7 +3399,6 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_pet_care.scss */
 .faixa {
-  margin-top: 10%;
   padding-top: 73px;
   padding-bottom: 24px;
 }

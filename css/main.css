@@ -36,7 +36,7 @@
     text-align: center;
 }
 .footer .content .col-xl-12 a{
-    font-size: 60%;
+    font-size: 70%;
 }
 .footer .content .col-xl-12 a::selection , h4::selection{
     color: black;
