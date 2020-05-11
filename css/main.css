@@ -55,8 +55,42 @@
     right: 0px;
 }
 
+#quem_somos .section_title{
+    background-color: #000;
+    border-radius: 20px;
+    padding: 30px
+}
+#quem_somos .section_title h3{
+    color: #fff !important;
+    font-weight: 1000 !important;
+    padding-bottom: 20px;
+}
+
+#quem_somos .section_title p{
+    color: #fff !important;
+    font-weight: 100 !important;
+    font-size: 100% !important;
+
+}
+#quem_somos .pet_thumb{
+    text-align: center;
+}
+#quem_somos .pet_thumb h3{
+    margin-top: 20px;
+}
+
+
 @media (max-width: 768px)
 {
+    .slider_area .single_slider .wpp img {
+        float: right; 
+        margin-top: -60%; 
+        margin-right: 15%;
+
+      }
+    .banner .dog_thumb{
+        margin-top: 30px;
+    }
     .banner .slider_text h3, p{
         text-align: center;
     }
@@ -75,9 +109,9 @@
     }
 
     .service_area .single_service {
-        padding: 20px 5px 20px 5px;
+        padding: 5px 5px 5px 5px;
         
-        min-height: 300px;
+        min-height: 250px;
       
       }
 

@@ -922,7 +922,7 @@ h3 {
 
 /* line 15, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
 .header-area .main-header-area {
-  background: #0A0A0A;
+  background: rgb(255, 255, 255);
 }
 
 @media (max-width: 767px) {
@@ -1059,6 +1059,10 @@ h3 {
   }
 }
 
+.header-area .container {
+  margin-top: 0px;
+}
+
 /* line 85, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a {
   background: #009DFF;
@@ -1100,12 +1104,12 @@ h3 {
 
 /* line 119, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #fff;
+  color: #000;
   font-size: 10px;
   text-transform: capitalize;
   font-weight: 500;
   display: inline-block;
-  padding: 37px 0;
+  padding: 17px 0;
   font-family: "Poppins", sans-serif;
   position: relative;
   text-transform: capitalize;
@@ -2049,24 +2053,38 @@ h3 {
 
 /* line 15, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
 .service_area .single_service {
-  padding: 35px 5px 35px 5px;
+  padding: 5px 5px 5px 5px;
   border-bottom: 3px solid #000;
   -webkit-border-radius: 10px 10px 0px 0px;
   -moz-border-radius: 10px 10px 0px 0px;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 10px 10px;
   margin-bottom: 20px;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   min-height: 400px;
+  background-color: black;
+  border-bottom: 5px solid #ffcf00;
+        
+        min-height: 380px;
 
+}
+
+.service_area .single_service h3 {
+  color: white;
+  font-size: 80%;
+}
+.service_area .single_service p {
+  color: grey;
+  font-size: 85%;
+  font-weight: bold;
 }
 
 @media (min-width: 768px) and (max-width: 1000px) {
   /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_team.scss */
   .service_area .single_service {
-    min-height: 650px;
+    min-height: 450px;
 
   }
 }
@@ -2095,10 +2113,9 @@ h3 {
 
 /* line 45, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
 .service_area .single_service:hover {
-  -webkit-box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
-  -moz-box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
-  box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
-  border-bottom: 3px solid #ffcf00;
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 2, 0.08);
+  -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 2, 0.08);
+  box-shadow: 0px 0 15px 0px rgb(0, 0, 2);
 }
 
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_team.scss */
