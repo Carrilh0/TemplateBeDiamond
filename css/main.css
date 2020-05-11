@@ -79,6 +79,26 @@
     margin-top: 20px;
 }
 
+.faixa-depoimentos .card{
+    height: 300px;
+    color: #000;
+    background-color: #e2e2e1;
+
+}
+.faixa-depoimentos .card .content{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.faixa-depoimentos .card .content p{
+    padding-top: 10px;
+    font-size: 80%;
+    line-height: 15px;
+
+}
 
 @media (max-width: 768px)
 {
@@ -146,6 +166,13 @@
 
     .botao_compra a{
         width: 90%;
+    }
+
+    #bonus .section_title{
+        width: 100%;
+    }
+    #bonus .section_title h3{
+        font-size:  70% ;
     }
 }
 

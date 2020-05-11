@@ -600,6 +600,78 @@
 
 
     <!-- faixa_start  -->
+    <div class="faixa faixa-depoimentos" style="margin-top: 30px;">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-lg-7 col-md-10">
+                    <div class="section_title text-center mb-95">
+                        <h3><span>O que estão falando</span> </br>
+                             sobre nós </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="depoimentos">
+                <div class="card">
+                    <div class="content">
+                        <div><img src="img/marcas/01company.png" /></div>
+
+                        <h3>@ruisouzaoficial</h3> 
+                        <span>B E N A T I</span>
+                        <p>Muito top o pack. Aproveitando
+                            demais todos os recursos e
+                            adiantando muito o meu
+                            trabalho. Contando os minutos
+                            para o próximo lançamento.
+                            vcs estão de parabéns
+                            </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div><img src="img/marcas/01company.png" /></div>
+
+                        <h3>@ruisouzaoficial</h3> 
+                        <span>B E N A T I</span>
+                        <p>Muito top o pack. Aproveitando
+                            demais todos os recursos e
+                            adiantando muito o meu
+                            trabalho. Contando os minutos
+                            para o próximo lançamento.
+                            vcs estão de parabéns
+                            </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div><img src="img/marcas/01company.png" /></div>
+
+                        <h3>@allansrocha.1 </h3> 
+                        <span>D O T E R R A </span>
+                        <p>Cara, que fantástico isso, sério,
+                            era o que faltava no mercado,
+                            rápido e prático.
+                            
+                            </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div><img src="img/marcas/01company.png" /></div>
+
+                        <h3>@rodrigomonteiro8</h3> 
+                        <span>H I N O D E </span>
+                        <p>Muito massa! vou comprar o
+                            pack agora
+                            </p>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <!-- faixa_end  -->
+    <!-- faixa_start  -->
     <div class="faixa preto faixa-carrosel" style="margin-top: 30px;">
         <div class="container">
             <div class="row justify-content-center ">
@@ -802,11 +874,43 @@
             autoplaySpeed: 1000,
             slidesToShow: 4,
             slidesToScroll: 1,
+            responsive: [
 
+                            {
+                              breakpoint: 800,
+                              settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 1
+                              }
+                            }
+
+                          ]
         });
 
-        $('.slick-next').hide();
-        $('.slick-prev').hide();
+        
+    </script>
+    <script>
+        $('.depoimentos').slick({
+            dots: true,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+
+                            {
+                              breakpoint: 800,
+                              settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                              }
+                            }
+
+                          ]
+        });
+        
+
     </script>
     <!--contact js-->
     <script src="js/contact.js"></script>
