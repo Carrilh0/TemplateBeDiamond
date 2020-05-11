@@ -2307,7 +2307,7 @@ h3 {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  padding: 100px 0  70px 0;
+  padding: 50px 0  70px 0;
   overflow: hidden;
   background: #fff;
 }
@@ -2331,10 +2331,13 @@ h3 {
   -webkit-box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
   -moz-box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
   box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  padding: 60px 80px 85px 80px;
+  padding: 15px 15px 15px 15px;
+  width: 300px;
+  height: 320px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #e2e2e1;
 }
 
 @media (max-width: 767px) {
@@ -2359,11 +2362,12 @@ h3 {
 
 /* line 33, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_testmonial.scss */
 .testmonial_area .single_testmonial .test_thumb img {
-  max-width: 130px;
+  max-width: 100px;
 }
 
 /* line 38, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_testmonial.scss */
 .testmonial_area .single_testmonial .test_content h4 {
+  text-align: center;
   font-size: 20px;
   font-weight: 600;
   color: #383737;
@@ -2372,6 +2376,8 @@ h3 {
 
 /* line 44, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_testmonial.scss */
 .testmonial_area .single_testmonial .test_content span {
+  text-align: center;
+
   display: block;
   color: #979797;
   font-family: "Poppins", sans-serif;
@@ -2384,10 +2390,12 @@ h3 {
 
 /* line 54, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_testmonial.scss */
 .testmonial_area .single_testmonial .test_content p {
-  font-size: 18px;
-  color: #66666f;
+  text-align: center;
+
+  font-size: 14px;
+  color: #000;
   margin-bottom: 0;
-  line-height: 35px;
+  line-height: 20px;
 }
 
 @media (max-width: 767px) {
@@ -2427,6 +2435,14 @@ h3 {
 }
 
 /* line 87, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_testmonial.scss */
+
+.testmonial_area .owl-carousel .owl-nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 .testmonial_area .owl-carousel .owl-nav div {
   left: 0;
   background: #000;
@@ -2442,7 +2458,7 @@ h3 {
   font-size: 14px;
   color: #f39b80 !important;
   left: auto;
-  bottom: 30px;
+  bottom: -50px;
   -webkit-transform: translateY(0%);
   -ms-transform: translateY(0%);
   transform: translateY(0%);
@@ -2456,7 +2472,7 @@ h3 {
 
 /* line 111, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_testmonial.scss */
 .testmonial_area .owl-carousel .owl-nav div {
-  color: #d9d9d9 !important;
+  color: #000000 !important;
 }
 
 /* line 113, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_testmonial.scss */
@@ -2485,6 +2501,7 @@ h3 {
   overflow: visible;
   -webkit-transform: translate3d(0, 0, 0);
 }
+
 
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_gallery.scss */
 .gallery_area {
@@ -6791,17 +6808,18 @@ text-align: center;
 
 .service_area .minipack{
   box-shadow: 0px 0px 5px;
-    border-radius: 10px;
   display: block;
   width: 100%;
   height: 400px;
   margin-top: 20px;
+  border-bottom: 5px solid #000;
+
 }
 .service_area .minipack:hover {
-  transition: 0.5s;
+  transition: 0.3s;
   box-shadow: 0px 0px 15px;
 
-  border-bottom: 3px solid #ffcf00;
+  border-bottom: 5px solid #ffcf00;
 }
 .service_area .minipack img{
   margin: 20px 0 20px 15%;
