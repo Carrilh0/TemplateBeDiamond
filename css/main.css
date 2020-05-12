@@ -62,12 +62,11 @@
 }
 #quem_somos .section_title h3{
     color: #fff !important;
-    font-weight: 1000 !important;
     padding-bottom: 20px;
 }
 
 #quem_somos .section_title p{
-    color: #fff !important;
+    color: grey !important;
     font-weight: 100 !important;
     font-size: 100% !important;
 
@@ -95,13 +94,22 @@
 }
 .faixa-depoimentos .card .content p{
     padding-top: 10px;
-    font-size: 80%;
-    line-height: 15px;
+    font-size: 90%;
+    line-height: 18px;
+    color: #000;
     text-align: center;
 }
 
 @media (max-width: 768px)
 {
+    h3{
+        text-align: center;
+    }
+
+    .service_area .section_title h3{
+        font-size: 200% !important;
+    }
+
     .slider_area .single_slider .wpp img {
         float: right; 
         margin-top: -60%; 
@@ -123,6 +131,10 @@
         width: 0 auto;
         text-align: center;
     }
+
+    .faixa-info{
+        margin-top: 40px;
+      }
 
     .slider_area .single_slider .slider_text {
         left: 0%;
