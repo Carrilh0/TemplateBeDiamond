@@ -100,8 +100,18 @@
     text-align: center;
 }
 
+#comprar{
+    background-image: url('/img/faixa-compra.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom 0px right 0;
+    margin-top: 0 !important;
+}
 @media (max-width: 768px)
 {
+    #comprar{
+        background-image: none;
+    }
     h3{
         text-align: center;
     }

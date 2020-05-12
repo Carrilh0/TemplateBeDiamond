@@ -7029,7 +7029,6 @@ text-align: center;
 }
 
 .produto{
-  margin-top: -100px;
   margin-left: -50px;
 }
 .produto img{
@@ -7134,7 +7133,7 @@ line-height: 90px;
 	background-color: #ffcf00;
 	border-bottom: 3px solid #ffcf00;
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
 
 .type p{
@@ -7189,8 +7188,10 @@ line-height: 90px;
     width: 100%; 
   }
   .produto img{
-    margin-top: 90px;
+    align-items: cen;
+    margin-top: 30px;
   }
+
 }
 
 .preco .faixa{
@@ -7199,4 +7200,5 @@ line-height: 90px;
   top: 0;
   padding: 0;
   width: 15%;
+  z-index: 2;
 }
