@@ -109,6 +109,15 @@
 }
 @media (max-width: 768px)
 {
+    .service_area .section_title{
+        font-size: 90%;
+        text-align: center;
+    }
+    .titulo_colecao {
+        width: 100%; 
+        text-align: center;
+
+    }
     #comprar{
         background-image: none;
     }
