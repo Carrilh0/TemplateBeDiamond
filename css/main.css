@@ -78,6 +78,10 @@
     margin-top: 20px;
 }
 
+.faixa-depoimentos{
+    color: #000;
+
+}
 .faixa-depoimentos .card{
     height: 320px;
     color: #000;
@@ -162,14 +166,14 @@
     }
 
     .service_area .single_service {
-        padding: 5px 5px 5px 5px;
+        padding: 20px 5px 0px 5px;
         
         min-height: 250px;
       
       }
 
       .faixa-carrosel{
-          height: 200px;
+          height: 300px;
           width: 100%;
       }
 
@@ -209,3 +213,21 @@
     }
 }
 
+@keyframes glowing {
+    0% { background-color: #00D732; box-shadow: 0px 0px 5px #00D732; }
+    25% { background-color: #00D732; box-shadow: 0px 0px 10px #00D732; }
+    50% { background-color: #00D732; box-shadow: 0px 0px 15px #00D732; }
+    75% { background-color: #00D732; box-shadow: 0px 0px 20px #00D732; }
+    100% { background-color: #00D732; box-shadow: 0px 0px 25px #00D732; }
+}
+@keyframes glowing-back {
+    25% { background-color: #00D732; box-shadow: 0px 0px 10px #00D732; }
+    50% { background-color: #00D732; box-shadow: 0px 0px 15px #00D732; }
+    75% { background-color: #00D732; box-shadow: 0px 0px 20px #00D732; }
+    100% { background-color: #00D732; box-shadow: 0px 0px 25px #00D732; }
+    0% { background-color: #00D732; box-shadow: 0px 0px 5px #00D732; }
+    
+    
+    
+    
+}

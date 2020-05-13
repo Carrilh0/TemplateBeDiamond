@@ -2056,7 +2056,7 @@ h3 {
 
 /* line 15, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
 .service_area .single_service {
-  padding: 5px 5px 5px 5px;
+  padding: 25px 5px 0px 5px;
   -webkit-border-radius: 10px 10px 0px 0px;
   -moz-border-radius: 10px 10px 0px 0px;
   border-radius: 10px 10px 10px 10px;
@@ -2069,24 +2069,27 @@ h3 {
   background-color: black;
   border-bottom: 5px solid #ffcf00;
         
-        min-height: 380px;
+        min-height: 350px;
 
 }
 
 .service_area .single_service h3 {
   color: white;
   font-size: 80%;
+  margin: 15px 0 !important;
 }
 .service_area .single_service p {
   color: grey;
   font-size: 85%;
   font-weight: bold;
+  line-height: 25px;
+  padding-bottom: 20px;
 }
 
 @media (min-width: 768px) and (max-width: 1000px) {
   /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_team.scss */
   .service_area .single_service {
-    min-height: 450px;
+    min-height: 420px;
 
   }
 }
@@ -6830,6 +6833,9 @@ text-align: center;
   margin: 20px 0 20px 15%;
   width: 65%;
 }
+.minipacks > :first-child .minipack img{
+  margin: 20px 0 20px 10% !important;
+}
 
 
 .slick-slide {
@@ -7160,11 +7166,22 @@ line-height: 90px;
   margin-top: -70px;
 }
 
+@keyframes glowing {
+  0% { background-color: #00D732; box-shadow: 0px 0px 5px #00D732; }
+  25% { background-color: #00D732; box-shadow: 0px 0px 10px #00D732; }
+  50% { background-color: #00D732; box-shadow: 0px 0px 15px #00D732; }
+  75% { background-color: #00D732; box-shadow: 0px 0px 20px #00D732; }
+  100% { background-color: #00D732; box-shadow: 0px 0px 25px #00D732; }
+}
+
 .botao_compra a{
   font-size: 15%;
   width: 75%;
   box-shadow: 0px 0px 20px #00D732;
-
+  -webkit-animation: glowing 1200ms infinite;
+  -moz-animation: glowing 1200ms infinite;
+  -o-animation: glowing 1200ms infinite;
+  animation: glowing 1200ms infinite alternate;
 }
 
 .seguro{
