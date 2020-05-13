@@ -98,6 +98,7 @@ h4 a,
 h5 a,
 h6 a {
   color: inherit;
+  
 }
 
 /* line 50, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
@@ -181,6 +182,8 @@ label {
 /* line 108, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
 h3 {
   font-size: 24px;
+  color: #000;
+
 }
 
 /* line 112, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
