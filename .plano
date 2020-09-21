@@ -161,10 +161,10 @@
                                 <img src="img/wpp.png" alt="">
                             </a>
 
-                            <h3><span>O Maior Banco: &nbsp</span>de Artes <br> para Marketing Multinível<br> do Brasil</h3>
+                            <h3><span>O Maior Banco &nbsp</span>de Artes <br> para Marketing Multinível<br> do Brasil</h3>
                             <p>Transforme o seu negócio online com Artes funcionais<br> para Networkers</p>
                             <div class="button-banner">
-                                <a target="_blank" href="#artes" class="genric-btn primary circle" style="margin-right: 10px;">CONHECER A COLEÇÃO</a>
+                                <a href="#artes" class="genric-btn primary circle" style="margin-right: 10px;">CONHECER A COLEÇÃO</a>
                                 <a href="#comprar" style="font-weight: bold;" class="genric-btn warning circle">QUERO
                                     TRANSFORMAR AGORA</a>
                             </div>
@@ -727,11 +727,10 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="preco">
-                        <img class="faixa" src="img/faixa.png">
 
 
                         <div class="type">
-                            <p>Assinatura Mensal</p>
+                            <p>Plano Mensal</p>
 
                         </div>
                         <div class="plan">

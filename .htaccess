@@ -7,11 +7,9 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^(.*)$ https://packbediamond.com.br//$1 [R,L]
+RewriteRule ^(.*)$ https://packbediamond.com.br/$1 [R,L]
 
-
-
-#remove html file extension-e.g. https://example.com/file.html will become https://example.com/file
+#remove html file extension-e.g. https://packbediamond.com.br/file.html will become https://packbediamond.com.br/file
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
