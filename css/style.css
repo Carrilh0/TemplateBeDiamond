@@ -669,7 +669,7 @@ h3 {
 /* line 2, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
 
 .section_title h3 {
-    font-size: 250%;
+    font-size: 31px;
     font-weight: 700;
     line-height: 40px;
     color: #000;
@@ -3968,6 +3968,7 @@ h3 {
 
 .faixa .danillo img {
     width: 60%;
+    transform: translateX(0px);
 }
 
 .faixa .danillo p {
