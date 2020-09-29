@@ -162,7 +162,7 @@ h4::selection {
         margin-top: 40px;
     }
     .faixa-info p {
-        color: #fff !important;
+        color: #000 !important;
     }
     .slider_area .single_slider .slider_text {
         left: 0%;
