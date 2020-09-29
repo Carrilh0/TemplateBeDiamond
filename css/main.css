@@ -70,7 +70,7 @@ h4::selection {
 }
 
 #quem_somos .section_title p {
-    color: grey !important;
+    color: #fff !important;
     font-weight: 100 !important;
     font-size: 100% !important;
 }
@@ -160,6 +160,9 @@ h4::selection {
     }
     .faixa-info {
         margin-top: 40px;
+    }
+    .faixa-info p {
+        color: #fff !important;
     }
     .slider_area .single_slider .slider_text {
         left: 0%;
