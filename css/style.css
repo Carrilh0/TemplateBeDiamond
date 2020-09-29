@@ -5,6 +5,11 @@
     src: url("../fonts/gotham.otf");
 }
 
+@font-face {
+    font-family: gothamBold;
+    src: url("../fonts/Gotham-Bold.otf");
+}
+
 
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_extend.scss */
 
@@ -8407,9 +8412,17 @@ h6 {
     font-size: 15%;
 }
 
+.content .descricao span {
+    font-family: gothamBold;
+}
+
 .preco {
     width: 100%;
     font-family: gotham;
+}
+
+.preco .type {
+    font-size: 30px;
 }
 
 .preco .plan .content {

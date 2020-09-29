@@ -281,6 +281,7 @@ h4::selection {
 .valor_preco .big span {
     margin: auto 0;
     font-size: 45px;
+    font-family: gothamBold;
 }
 
 .valor_preco .small {
@@ -291,8 +292,33 @@ h4::selection {
     margin-left: 15px;
     font-size: 95px;
     font-weight: bold;
+    font-family: gothamBold;
 }
 
 .valor_preco .small span {
     transform: TRANSLATEY(-25px);
+}
+
+.valor_antigo span {
+    text-decoration: none;
+    /*we're replacing the default line-through*/
+    position: relative;
+    display: inline-block;
+    /* keeps it from wrapping across multiple lines */
+}
+
+.valor_antigo span:after {
+    content: "";
+    /* required property */
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    border-top: 2px solid red;
+    height: 45%;
+    /* adjust as necessary, depending on line thickness */
+    /* or use calc() if you don't need to support IE8: */
+    height: calc(50% - 1px);
+    /* 1px = half the line thickness */
+    width: 100%;
+    transform: rotateZ(-4deg);
 }
