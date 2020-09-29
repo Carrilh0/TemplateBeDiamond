@@ -267,3 +267,32 @@ h4::selection {
     font-size: 15px;
     font-weight: bold;
 }
+
+.valor_preco {
+    display: flex;
+    padding: 0px 130px;
+}
+
+.valor_preco .big {
+    margin: auto 0;
+    font-size: 15px;
+}
+
+.valor_preco .big span {
+    margin: auto 0;
+    font-size: 45px;
+}
+
+.valor_preco .small {
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 15px;
+    font-size: 95px;
+    font-weight: bold;
+}
+
+.valor_preco .small span {
+    transform: TRANSLATEY(-25px);
+}

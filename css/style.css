@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,700|Poppins:200,200i,300,300i,400,500,500i,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,700|Poppins:200,200i,300,300i,400,500,500i,600,700,800,900&display=swap");
+@font-face {
+    font-family: gotham;
+    src: url("../fonts/gotham.otf");
+}
+
 
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_extend.scss */
 
@@ -8366,7 +8371,7 @@ h6 {
     height: 70%;
     background-color: #000;
     border-radius: 0px 0px 15px 15px;
-    font-family: 'Open Sans';
+    font-family: 'gotham';
     font-style: condensed;
     font-size: 90px;
     color: white;
@@ -8378,25 +8383,23 @@ h6 {
     height: 70px;
 }
 
-.valor span {
+.valor_antigo {
+    margin-top: 90px;
+    font-size: 15px !important;
     color: #fff;
-    font-size: 20px;
-    font-weight: bold;
 }
 
-.valor p {
-    color: #fff;
-    font-size: 80%;
-    font-weight: bold;
-    height: 70px;
-    z-index: 1;
-    position: relative;
-    padding: 10px 0;
+.valor_preco {
+    justify-content: center;
 }
 
-.valor img {
-    margin-top: -200px;
-    width: 70%;
+.valor_preco p {
+    font-size: 18px;
+}
+
+.valor_preco span {
+    font-size: 18px;
+    color: #fff;
 }
 
 .content .descricao {
@@ -8406,14 +8409,17 @@ h6 {
 
 .preco {
     width: 100%;
+    font-family: gotham;
 }
 
 .preco .plan .content {
     margin: 0 auto;
+    font-family: gotham;
 }
 
 .preco .content .vantagens {
     display: flex;
+    font-family: gotham;
 }
 
 .preco .content ul {
@@ -8424,6 +8430,7 @@ h6 {
     padding: 0px;
     margin: 0 auto;
     margin-top: -20px;
+    font-family: gotham;
 }
 
 .preco .content ul li {
@@ -8432,6 +8439,7 @@ h6 {
     text-align: justify;
     height: 25px;
     line-height: 90px;
+    font-family: gotham;
 }
 
 .preco .content ul li::before {
@@ -8442,6 +8450,10 @@ h6 {
     color: #ffcf00;
     margin-right: 5px;
     width: 100%;
+}
+
+.preco p {
+    font-family: gotham;
 }
 
 .type {
