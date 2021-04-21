@@ -8159,7 +8159,7 @@ h6 {
 }
 @media only screen and (max-width: 600px) {
   .service_area .minipack {
-    height: 280px;
+    height: 330px;
   }
 }
 .service_area .minipack:hover {
@@ -8168,9 +8168,8 @@ h6 {
     border-bottom: 5px solid #ffcf00;
 }
 
-.service_area .minipack img {
-    margin: 20px 0 20px 15%;
-    width: 65%;
+.service_area .minipack .service_icon {
+    padding: 20px 0;
 }
 
 .minipacks> :first-child .minipack img {
@@ -8394,7 +8393,7 @@ h6 {
 }
 
 .valor_antigo {
-    margin-top: 90px;
+    margin-top: 50px;
     font-size: 15px !important;
     color: #fff;
 }
