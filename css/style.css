@@ -8155,8 +8155,13 @@ h6 {
     height: 400px;
     margin-top: 20px;
     border-bottom: 5px solid #000;
-}
 
+}
+@media only screen and (max-width: 600px) {
+  .service_area .minipack {
+    height: 280px;
+  }
+}
 .service_area .minipack:hover {
     transition: 0.3s;
     box-shadow: 0px 0px 15px;
