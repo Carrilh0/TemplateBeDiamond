@@ -230,8 +230,8 @@ h4::selection {
         min-height: 250px;
     }
     .faixa-carrosel {
-        height: 300px;
-        width: 100%;
+        height: 360px;
+        padding: 30px 0;
     }
     .footer .content {
         width: 100%;

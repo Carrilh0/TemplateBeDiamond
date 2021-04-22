@@ -2269,7 +2269,7 @@ h3 {
 /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
 
 .service_area {
-    padding-top: 100px;
+    padding: 30px 0;
 }
 
 @media (max-width: 767px) {
@@ -2283,8 +2283,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
     /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
     .service_area {
-        padding-top: 100px;
-        padding-bottom: 40px;
+        padding: 30px 0;
     }
 }
 
@@ -3930,7 +3929,7 @@ h3 {
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_pet_care.scss */
 
 .faixa {
-    padding: 70px 0;
+    padding: 30px 0;
 }
 
 @media (max-width: 767px) {
@@ -3955,7 +3954,8 @@ h3 {
 
 @media (max-width: 767px) {
     .faixa-carrosel {
-        height: 300px;
+        height: 360px;
+        padding: 30px 0;
     }
 }
 
