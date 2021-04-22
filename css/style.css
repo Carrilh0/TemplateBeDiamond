@@ -1728,7 +1728,6 @@ h3 {
 .slider_area .single_slider .slider_text p {
     font-size: 16px;
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
     color: #fff;
     margin-bottom: 0;
     margin-top: 0;
@@ -1736,13 +1735,13 @@ h3 {
     display: inline-block;
     margin-bottom: 20px;
     margin-top: 12px;
-    font-weight: 200;
+    font-weight: 700;
     margin-top: 30px;
 }
 
 .slider_area .single_slider .slider_text p span {
     color: #ffcf00;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .slider_area .single_slider .slider_text iframe {
@@ -3931,8 +3930,7 @@ h3 {
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_pet_care.scss */
 
 .faixa {
-    padding-top: 73px;
-    padding-bottom: 24px;
+    padding: 70px 0;
 }
 
 @media (max-width: 767px) {
@@ -8159,7 +8157,7 @@ h6 {
 }
 @media only screen and (max-width: 600px) {
   .service_area .minipack {
-    height: 330px;
+    height: 370px;
   }
 }
 .service_area .minipack:hover {
