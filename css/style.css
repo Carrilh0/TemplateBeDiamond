@@ -1676,7 +1676,6 @@ h3 {
     line-height: 30px;
     position: relative;
     z-index: 2;
-    text-transform: uppercase;
 }
 
 @media (max-width: 1024px) {
