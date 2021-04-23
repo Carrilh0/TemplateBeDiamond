@@ -1679,25 +1679,6 @@ h3 {
     text-transform: uppercase;
 }
 
-.slider_area .single_slider .slider_text h3::before {
-    background-image: url("/img/risco.png");
-    position: absolute;
-    top: 53px;
-    width: 100%;
-    background-size: 370px 20px;
-    background-repeat: no-repeat;
-    content: "⠀";
-    display: inline-block;
-    z-index: -1;
-}
-
-@media (max-width: 768px) {
-    .slider_area .single_slider .slider_text h3::before {
-        background-size: 270px 20px;
-        width: 270px;
-    }
-}
-
 @media (max-width: 1024px) {
     .slider_area .single_slider .slider_text h3 {
         font-size: 20px !important;
@@ -1752,6 +1733,10 @@ h3 {
     /* line 63, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
     .slider_area .single_slider .slider_text p br {
         display: none;
+    }
+
+    .slider_area .single_slider .slider_text iframe {
+        height: 250px;
     }
 }
 
@@ -4010,7 +3995,7 @@ h3 {
 }
 
 .faixa #be_diamond h3 {
-    font-size: 250%;
+    font-size: 200%;
     font-weight: 700;
     line-height: 40px;
     color: #000;
